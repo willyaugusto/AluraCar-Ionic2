@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http'; 
 import { NavController, LoadingController, AlertController } from 'ionic-angular';
 
+import { EscolhaPage } from '../escolha/escolha';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -45,7 +47,7 @@ export class HomePage implements OnInit {
 
   seleciona(carro){
 
-    console.log(carro.nome);
+    this.navCtrl.push(EscolhaPage);
   }
 
 }
