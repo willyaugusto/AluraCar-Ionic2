@@ -47,7 +47,7 @@ export class HomePage implements OnInit {
 
   seleciona(carro){
 
-    this.navCtrl.push(EscolhaPage);
+    this.navCtrl.push(EscolhaPage, {carroSelecionado: carro});
   }
 
 }
