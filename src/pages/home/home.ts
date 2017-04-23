@@ -43,4 +43,9 @@ export class HomePage implements OnInit {
       });
   }
 
+  seleciona(carro){
+
+    console.log(carro.nome);
+  }
+
 }
