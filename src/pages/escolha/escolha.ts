@@ -21,7 +21,7 @@ export class EscolhaPage {
         this.acessorios = [
             new Acessorio('Freio ABS', 800),
             new Acessorio('Ar-condicionado', 1000),
-            new Acessorio('MP3 Player', 500)
+            new Acessorio('MP3 Player', 600)
         ];
     }
 
